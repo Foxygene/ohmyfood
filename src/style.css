@@ -1,0 +1,24 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+:root {
+  --primary-color: #9356dc;
+  --secondary-color: #ff79da;
+  --tertiary-color: #99e2d0;
+  --background: #f2f2f2;
+  --box-color: #dddddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  body {
+    min-height: 100vh;
+    margin: 0;
+
+    background: var(--background);
+  }
+}
+
+@import "./components/header.css";
