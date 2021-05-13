@@ -1,0 +1,29 @@
+footer {
+  padding: 1rem;
+
+  color: var(--box-color);
+  background-color: #353839;
+
+  .title {
+    font-family: Shrikhand;
+  }
+  .footer-items {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.33rem;
+    font-size: 0.85rem;
+
+    .item-w-icon {
+      display: flex;
+      gap: 0.25rem;
+
+      .icon-block {
+        width: 17px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

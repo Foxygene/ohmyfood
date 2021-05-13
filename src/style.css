@@ -1,3 +1,5 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 @font-face {
   font-family: Shrikhand;
   src: url(../assets/Shrikhand/Shrikhand-Regular.ttf);
@@ -48,8 +50,9 @@ body {
   background: var(--background);
 }
 
-@import "./components/header.css";
-@import "./components/card.css";
+@import './components/header.css';
+@import './components/card.css';
+@import './components/footer.css';
 
 main {
   .title {
@@ -148,7 +151,7 @@ main {
         position: absolute;
         top: 21.5px;
         left: calc(0px - var(--size) / 2);
-        content: "" counter(steps) "";
+        content: '' counter(steps) '';
 
         background: var(--primary-color);
         border-radius: 50%;
