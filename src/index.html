@@ -1,84 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ohmyfood</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>ohmyfood</title>
-</head>
-
-<body>
-  <include src="components/header.html">
-    { "class": "no-arrow" }
-  </include>
-  <main>
-    <div class="localisation">
-      <div class="icon-block">
-        <i class="fas fa-map-marker-alt"></i>
-      </div>
-      <a>Paris, Belleville</a>
-    </div>
-    <div class="explore">
-      <h1 class="title">Réservez le menu qui<br>vous convient</h1>
-      <h2>Découvrez des restaurants d'exception,<br>séléctionnés par nos soins.</h2>
-      <div class="explore-button">
-        <a>Explorer nos restaurants</a>
-      </div>
-    </div>
-    <div class="steps">
-      <a href="#fonctionnement" id="fonctionnement" class="title">Fonctionnement</a>
-      <div class="steps-block">
-        <div class="steps-item">
-          <i class="fas fa-mobile-alt"></i>
-          <a>Choisissez un restaurant</a>
+  <body>
+    <include src="components/header.html"> { "class": "no-arrow" } </include>
+    <main>
+      <div class="localisation">
+        <div class="icon-block">
+          <i class="fas fa-map-marker-alt"></i>
         </div>
-        <div class="steps-item">
-          <i class="fas fa-list"></i>
-          <a>Composez votre menu</a>
-        </div>
-        <div class="steps-item">
-          <i class="fas fa-store"></i>
-          <a>Dégustez au restaurant</a>
+        Paris, Belleville
+      </div>
+      <div class="explore">
+        <h1 class="title">Réservez le menu qui<br />vous convient</h1>
+        <h2>
+          Découvrez des restaurants d'exception,<br />séléctionnés par nos
+          soins.
+        </h2>
+        <div class="explore-button">Explorer nos restaurants</div>
+      </div>
+      <div class="steps">
+        <a href="#fonctionnement" id="fonctionnement" class="title">
+          Fonctionnement
+        </a>
+        <div class="steps-block">
+          <div class="steps-item">
+            <i class="fas fa-mobile-alt"></i>
+            Choisissez un restaurant
+          </div>
+          <div class="steps-item">
+            <i class="fas fa-list"></i>
+            Composez votre menu
+          </div>
+          <div class="steps-item">
+            <i class="fas fa-store"></i>
+            Dégustez au restaurant
+          </div>
         </div>
       </div>
-    </div>
-    <div class="resto-block">
-      <a href="#restaurants" id="restaurants" class="title">Restaurants</a>
-      <div class="card-block">
-        <include src="components/card.html">
-          {
-          "img_src": "../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
-          "title": "La palette du goût",
-          "desc": "Ménilmontant"
-          }
-        </include>
-        <include src="components/card.html">
-          {
-          "img_src": "../assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg",
-          "title": "La note enchantée",
-          "desc": "Charonne"
-          }
-        </include>
-        <include src="components/card.html">
-          {
-          "img_src": "../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
-          "title": "À la française",
-          "desc": "Cité Rouge"
-          }
-        </include>
-        <include src="components/card.html">
-          {
-          "img_src": "../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
-          "title": "Le délice des sens",
-          "desc": "Folie-Méricourt"
-          }
-        </include>
+      <div class="resto-block">
+        <a href="#restaurants" id="restaurants" class="title">Restaurants</a>
+        <div class="card-block">
+          <include src="components/card.html">
+            { "img_src":
+            "../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+            "title": "La palette du goût", "desc": "Ménilmontant" }
+          </include>
+          <include src="components/card.html">
+            { "img_src":
+            "../assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg",
+            "title": "La note enchantée", "desc": "Charonne" }
+          </include>
+          <include src="components/card.html">
+            { "img_src":
+            "../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
+            "title": "À la française", "desc": "Cité Rouge" }
+          </include>
+          <include src="components/card.html">
+            { "img_src":
+            "../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
+            "title": "Le délice des sens", "desc": "Folie-Méricourt" }
+          </include>
+        </div>
       </div>
-    </div>
-  </main>
-  <include src="components/footer.html"></include>
-</body>
-
+    </main>
+    <include src="components/footer.html"></include>
+  </body>
 </html>
