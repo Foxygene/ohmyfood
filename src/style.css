@@ -1,4 +1,9 @@
-@import "@fortawesome/fontawesome-free/css/all.css";
+@font-face {
+  font-family: Shrikhand;
+  src: url(../assets/Shrikhand/Shrikhand-Regular.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
 
 @font-face {
   font-family: Roboto;
