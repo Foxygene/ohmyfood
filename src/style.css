@@ -42,12 +42,20 @@
   font-family: Roboto;
   font-weight: normal;
 }
+html {
+  scroll-behavior: smooth;
+  body {
+    min-height: 100vh;
+    margin: 0;
 
-body {
-  min-height: 100vh;
-  margin: 0;
+    background: var(--background);
+  }
+}
 
-  background: var(--background);
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 @import './components/header.css';
