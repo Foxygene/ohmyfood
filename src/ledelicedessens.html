@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Le délice des sens</title>
+  </head>
+  <body>
+    <include src="components/header.html"></include>
+    <include src="components/menu.html">
+      { "resto": "Le délice des sens","image":
+      "../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
+      "entrees": [{ "name": "Tartare de thon", "desc": "Assaisonné au yuzu",
+      "price":25 }, { "name": "Bouchée de homard croustillant", "desc": "Et sa
+      farandole de petits légumes", "price":35}, {"name": "Velouté de cèpes ",
+      "desc": "Aux truffes", "price": 20 }], "plats": [{ "name": "Poulet rôti
+      aux herbes de Provence", "desc": "Et sa crème de truffe", "price": 40}, {
+      "name": "Langouste rôtie ", "desc": "Et ses légumes de saison", "price":
+      35}, {"name": "Côte de boeuf Angus", "desc": "Et sa purée de panais",
+      "price": 44 }], "desserts": [{ "name": "Farandole de desserts", "desc":
+      "Du chef", "price": 18}, { "name": "Crème brulée ", "desc": "Revisitée",
+      "price":22 }, {"name": "Tiramisu ", "desc": "À la noisette", "price":
+      23}]}</include
+    >
+    <include src="components/footer.html"></include>
+  </body>
+</html>

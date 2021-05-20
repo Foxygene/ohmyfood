@@ -1,0 +1,44 @@
+.menu {
+  padding-top: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .main-block {
+    padding: 1.5rem;
+
+    background-color: var(--background);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    .title-block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .title {
+        font-family: Shrikhand;
+        font-size: 26px;
+      }
+
+      .far {
+        padding-right: 0.75rem;
+        font-size: 23px;
+      }
+    }
+
+    .section {
+      margin: 1.5rem 0 0.5rem;
+      position: relative;
+      width: max-content;
+    }
+    .section::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -7px;
+      height: 3px;
+      width: 100%;
+      background-color: var(--tertiary-color);
+    }
+  }
+}

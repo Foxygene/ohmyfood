@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>À la française</title>
+  </head>
+  <body>
+    <include src="components/header.html"></include>
+    <include src="components/menu.html">
+      { "resto": "À la française","image":
+      "../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
+      "entrees": [{ "name": "Tartare de poulpe acidulé", "desc": "Aux zestes
+      d'orange", "price":25 }, { "name": "Velouté de légumes d'antan", "desc":
+      "Carotte, panais, topinambour", "price":35}, {"name": "Soupe à
+      l'oignon","desc": "Revisitée", "price": 20 }], "plats": [{ "name":
+      "Coquilles Saint-Jacques", "desc": "Accompagnées d'une purée de panais",
+      "price": 40}, { "name": "Magret de canard", "desc": "Et parmentier de
+      pommes de terre", "price": 35}, {"name": "Pigeonneau d’Ille-et-Vilaine",
+      "desc": "Sur son lit de gnocchis aux légumes", "price": 44 }], "desserts":
+      [{ "name": "Pétales de violettes glacés", "desc": "Et purée de noisettes",
+      "price": 18}, { "name": "Fondant au chocolat", "desc": "Revisité",
+      "price":22 }, {"name": "Millefeuille croustillant", "desc": "Myrtilles et
+      pâte d’amande", "price": 23}]}</include
+    >
+    <include src="components/footer.html"></include>
+  </body>
+</html>

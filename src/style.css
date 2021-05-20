@@ -60,7 +60,9 @@ a:visited {
 
 @import './components/header.css';
 @import './components/card.css';
+@import './components/menu.css';
 @import './components/footer.css';
+@import './components/card-plate.css';
 
 main {
   .title {
