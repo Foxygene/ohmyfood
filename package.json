@@ -4,7 +4,7 @@
   "description": "ohmyfood is an uber-like website",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "author": "Foxygene",
   "license": "ISC",
