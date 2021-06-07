@@ -1,29 +1,56 @@
 .card-plate {
-  padding-top: 0.75rem;
+  margin: 1.5rem 0 0.75rem;
+  display: flex;
 
+  background-color: white;
+  overflow: hidden;
+  border-radius: 1rem;
   box-shadow: 0 7px 9px -8px #919191;
-  .content {
-    padding: 0.75rem;
-    display: flex;
-    flex-direction: column;
 
-    background-color: white;
-    border-radius: 1rem;
+  .content {
+    min-width: 0;
+    padding: 0.75rem;
+    flex-grow: 1;
 
     .title {
       padding-bottom: 0.25rem;
 
       font-weight: bold;
     }
-    .sub {
-      display: flex;
-      justify-content: space-between;
-      font-size: 14px;
+  }
+  .price {
+    display: flex;
+    align-items: flex-end;
+    padding: 0.75rem 0.75rem 0.75rem 0;
+  }
+  .checkmark {
+    --container-size: 64px;
+    width: 0px;
+    position: relative;
 
-      .price {
-        padding-right: 0.5rem;
-        font-weight: bold;
+    background-color: var(--tertiary-color);
+    transition: 1s;
+    .check-circle {
+      --size: 25px;
+      position: absolute;
+      left: calc((var(--container-size) / 2) - (var(--size) / 2));
+      top: calc((var(--container-size) / 2) - (var(--size) / 2));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: var(--size);
+      width: var(--size);
+      border-radius: 100%;
+
+      background-color: white;
+      i.fas {
+        color: var(--tertiary-color);
       }
+    }
+  }
+  &:hover {
+    .checkmark {
+      width: var(--container-size);
     }
   }
 }
