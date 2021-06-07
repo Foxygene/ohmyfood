@@ -42,6 +42,13 @@
   font-family: Roboto;
   font-weight: normal;
 }
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 html {
   scroll-behavior: smooth;
   body {
