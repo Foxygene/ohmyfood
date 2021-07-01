@@ -49,6 +49,26 @@
   white-space: nowrap;
 }
 
+.heart:hover .far,
+.heart .fas {
+  display: none;
+}
+
+.fa-heart:hover {
+  background: linear-gradient(
+    180deg,
+    var(--primary-color) 25%,
+    var(--secondary-color)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.heart:hover .fas {
+  display: inline;
+}
+
 html {
   scroll-behavior: smooth;
   body {
