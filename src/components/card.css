@@ -5,6 +5,8 @@
   background: var(--background);
   border-radius: 0.75rem;
   overflow: hidden;
+  animation: none !important;
+  opacity: 1 !important;
 
   img {
     width: 100%;

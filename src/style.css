@@ -155,6 +155,10 @@ main {
       flex-direction: column;
       align-items: center;
 
+      .no-anim {
+        animation: none;
+        opacity: 1;
+      }
       .steps-item {
         width: 100%;
         counter-increment: steps;
