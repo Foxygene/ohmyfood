@@ -173,6 +173,7 @@ main {
         background: var(--box-color);
         border-radius: 22.5px;
         box-shadow: 0 7px 9px -8px #919191;
+        transition: 0.5s;
 
         i {
           padding-left: 0.8rem;
@@ -184,6 +185,13 @@ main {
           font-weight: bold;
         }
       }
+
+      .steps-item:hover {
+        background: #ddc2ff;
+        cursor: pointer;
+        box-shadow: 0 7px 9px -8px #3d3d3d;
+      }
+
       .steps-item::before {
         --size: 25px;
         display: flex;
