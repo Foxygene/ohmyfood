@@ -52,86 +52,87 @@
     transform: translateY(0rem);
   }
 }
+
 div :nth-of-type(3) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 100ms;
+  animation-delay: 2100ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(4) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 200ms;
+  animation-delay: 2200ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(5) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 300ms;
+  animation-delay: 2300ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(6) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 400ms;
+  animation-delay: 2400ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(7) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 500ms;
+  animation-delay: 2500ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(8) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 600ms;
+  animation-delay: 2600ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(9) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 700ms;
+  animation-delay: 2700ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(10) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 800ms;
+  animation-delay: 2800ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(11) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 900ms;
+  animation-delay: 2900ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(12) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 1000ms;
+  animation-delay: 3000ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(13) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 1100ms;
+  animation-delay: 3100ms;
   animation-fill-mode: forwards;
 }
 
 div :nth-of-type(14) {
   opacity: 0;
   animation: fadin 0.5s;
-  animation-delay: 1200ms;
+  animation-delay: 3200ms;
   animation-fill-mode: forwards;
 }

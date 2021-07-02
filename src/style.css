@@ -90,6 +90,7 @@ a:visited {
 @import './components/menu.css';
 @import './components/footer.css';
 @import './components/card-plate.css';
+@import './components/loader.css';
 
 main {
   .title {
@@ -159,6 +160,7 @@ main {
         animation: none;
         opacity: 1;
       }
+
       .steps-item {
         width: 100%;
         counter-increment: steps;
