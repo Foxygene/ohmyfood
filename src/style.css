@@ -1,8 +1,10 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 @font-face {
   font-family: Shrikhand;
   src: url(../assets/Shrikhand/Shrikhand-Regular.ttf);
   font-weight: normal;
-  font-size: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -15,7 +17,6 @@
 @font-face {
   font-family: Roboto;
   src: url(../assets/Roboto/Roboto-Light.ttf);
-  font-weight: light;
   font-style: normal;
 }
 
@@ -127,8 +128,6 @@ main {
       text-align: center;
       font-weight: normal;
       font-size: 17px;
-
-      font-weight: light;
     }
     .explore-button {
       margin: 25px 0 43px 0;
